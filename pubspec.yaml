@@ -29,6 +29,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  provider: ^6.0.2
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -80,7 +81,7 @@ flutter:
      - family: Lato
        fonts:
          - asset: assets/fonts/Lato-Regular.ttf
-         - asset: assets/fonts/Lato_Bold.ttf
+         - asset: assets/fonts/Lato-Bold.ttf
            weight: 700
   #
   # For details regarding fonts from package dependencies,
